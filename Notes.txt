@@ -15,5 +15,8 @@ For this reason the JSX is used.
 In JSX, we do not use 'createElement'
 
 
+NPM: It is everything not just a Node Package Manager
+Go to NPM official website and click on the name, you can see various names pooping up
+
 
 
