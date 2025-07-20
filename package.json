@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is for learning React",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/SubhashDevulapalli/React.git)"
+  },
+  "keywords": [
+    "react",
+    "subhash"
+  ],
+  "author": "Subhash Devulapalli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SubhashDevulapalli/React/issues"
+  },
+  "homepage": "https://github.com/SubhashDevulapalli/React#readme"
+}

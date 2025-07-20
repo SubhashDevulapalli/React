@@ -28,4 +28,4 @@ const element = React.createElement(
 console.log(element);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(parent);
+root.render(element);
