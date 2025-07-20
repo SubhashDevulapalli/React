@@ -1,0 +1,19 @@
+CDN - Content Delivery Network - It is a geographically distributed network of proxy servers and data centers designed to efficiently deliver web content to users based on their location.
+    -> It works by storing copies of website content on edge servers ocated close to end users, which reduces the distance data needs to travel and speeds up the content delivery.
+    -><script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    -> The above are the CDN links of React. Include those in your rect project. 
+
+
+React.CreateElement - It is an React element not an HTML tag: do console.log the element and see it yourself in the console
+- Elements created in react are React objects and not HTML tags and browser understand it as HTML
+
+Follow the Example Code-1 (EC-1) for creating nested HTML tags in react
+
+In real-world will be complex nested structure. This makes code complicated.
+For this reason the JSX is used.
+In JSX, we do not use 'createElement'
+
+
+
+
