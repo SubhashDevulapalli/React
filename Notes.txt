@@ -18,5 +18,30 @@ In JSX, we do not use 'createElement'
 NPM: It is everything not just a Node Package Manager
 Go to NPM official website and click on the name, you can see various names pooping up
 
+package.json - It is configuration of npm and keeps track of approx version of package is installed and ^ and ~ can be manipulated.
+package-lock.json - It keeps the exact version of packagebeing used
+
+Transitive dependency - dependecies depneding on other packages 
+When installed parcel it installs various packages in node module
+
+If you want install a package use npm
+
+If you want execute a project or package use 'npx'
+
+what does parcel does to the project?
+- Dev build
+- Local servers
+- HMR - Hot module replacement
+- File watching algorithm (it is written in c++)
+- Gives faster build because of cache (file: .parcel-cache)
+- Image optimization
+- Minification of file for production
+- Bundling the files
+- compresses the file
+- Consistent hashing
+- Code splitting
+- Differential Bundling
+- Tree shaking - remove unused code 
+
 
 
