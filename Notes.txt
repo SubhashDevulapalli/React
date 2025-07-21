@@ -18,5 +18,54 @@ In JSX, we do not use 'createElement'
 NPM: It is everything not just a Node Package Manager
 Go to NPM official website and click on the name, you can see various names pooping up
 
+package.json - It is configuration of npm and keeps track of approx version of package is installed and ^ and ~ can be manipulated.
+package-lock.json - It keeps the exact version of packagebeing used
+
+Transitive dependency - dependecies depneding on other packages 
+When installed parcel it installs various packages in node module
+
+If you want install a package use npm
+
+If you want execute a project or package use 'npx'
+
+what does parcel does to the project?
+- Dev build
+- Local servers
+- HMR - Hot module replacement
+- File watching algorithm (it is written in c++)
+- Gives faster build because of cache (file: .parcel-cache)
+- Image optimization
+- Minification of file for production
+- Bundling the files
+- compresses the file
+- Consistent hashing
+- Code splitting
+- Differential Bundling
+- Tree shaking - remove unused code 
+
+----For the above explanation go through the commit till "e8fed5e6d3906d89c3137c6eae486a30d75e4e68"
+Because I am clearing out all the content from App.js
+
+Whenever an react element is created it is an react object but when it is rendered on to the browser it is treated as HTML element.
+
+While creating react, it is done using createElement but but it included JSX
+JSX is not part of React but React uses JSX
+JSX is combination of HTML and JS
+JSX is not HTML in JS it is something more like HTML like syntax or XML like syntax in Javascript
+When JSX element and react elements are logged it looks the same.
+JSX -> React.createElement -> JS Object -> HTML element
+Babel transpile the JSX into JS not react or js engine
+JSX -> React.createElement -> JS Object -> HTML element
+For single line of JSX is valid but if there is need of multiple lines of JSX then wrap
+
+There are 2 types of components:
+1. Class based component (Old fashinoed)
+2. Functional component (New version)
+
+What is a functional component? - A function which return a piece of JSX/React element is called functional component.
+Component composition is having a component inside another component
+
+We can have element inside element, component inside component and play with it.
+JSX is very secure to implement
 
 
