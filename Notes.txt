@@ -68,4 +68,25 @@ Component composition is having a component inside another component
 We can have element inside element, component inside component and play with it.
 JSX is very secure to implement
 
+Starting the project - Food ordering app
+What are all the components required:
+- Header
+-- Logo
+-- Nav Items
+- body
+-- Search
+-- RestaurantCardContainer
+--- RestaurantCards
+- Footer
+-- Copyright
+-- links
+-- Address
+-- Contacts
+
+I am taking out all the code in the App.js, if you want to look at the files previously used check the commit - '2391f50b3bdd3778d75b1ecef5c0d5927ceb97c3'
+
+Use config driven UI, because it is best practise to use
+Whenever using map for interation, use key. It is very important as it will avoid rerendering of all the cards. With key, react will only render the new object.
+Don't use index as keys in map, it is bad practise.
+
 
